@@ -2,8 +2,6 @@ baseURL: "https://reorx.github.io/hugo-PaperModX/"
 title: PaperModX
 paginate: 5
 theme: PaperModX
-# NOTE remove this line if you copy exampleSite outof hugo-PaperModX
-themesdir: ../
 
 enableInlineShortcodes: true
 enableRobotsTXT: true
@@ -60,13 +58,6 @@ params:
         url: /archives/
       - name: Tags
         url: /tags/
-
-  homeInfoParams:
-    Title: "DavidCraddock's Blog"
-    Content: |
-  socialIcons:
-    - name: github-simple
-      url: "https://github.com/wordswords"
 
   # label:
   #     text: "Home"
