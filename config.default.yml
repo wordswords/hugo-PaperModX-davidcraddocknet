@@ -23,13 +23,10 @@ params:
   images: ["cover.png"]
   DateFormat: "2006-01-02"
   useCustomAnalytics: false
-
   defaultTheme: auto
-  # disableThemeToggle: true
   ShowShareButtons: true
   ShowReadingTime: true
   ShowWordCount: true
-  # disableSpecial1stPost: true
   displayFullLangName: true
   ShowPostNavLinks: true
   ShowBreadCrumbs: true
@@ -95,21 +92,15 @@ languages:
     weight: 1
     menu:
       main:
-        - name: Docs
-          url: /docs/
-          weight: 1
-        - name: Newsletter
-          url: /newsletter/
-          weight: 1
         - name: Tags
           url: /tags/
-          weight: 4
+          weight: 1
         - name: Archive
           url: /archives/
-          weight: 5
+          weight: 2
         - name: Search
           url: /search/
-          weight: 10
+          weight: 5
 
 outputs:
   home:
