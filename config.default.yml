@@ -136,7 +136,7 @@ markup:
     renderer:
       unsafe: true
   highlight:
-    style: dracula
+    style: github
     lineNos: true
     noClasses: false
 
